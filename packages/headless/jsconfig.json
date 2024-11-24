@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"allowJs": true, // Allow JavaScript files
+		"checkJs": true, // Enable type-checking in JavaScript files
+		"strict": true, // Enable strict mode for better type safety
+		"jsx": "preserve" // Optional: For handling JSX if needed
+	},
+	"include": [
+		"src/**/*", // Include all files in your source folder
+		".svelte-kit/**/*" // Include generated Svelte files
+	],
+	"exclude": [
+		"node_modules" // Exclude dependencies
+	]
+}
